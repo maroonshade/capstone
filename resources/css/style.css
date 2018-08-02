@@ -3,6 +3,8 @@ html {
   font-family: "Helvetica", sans-serif;
 }
 
+/*header*/
+
 header {
   display: flex;
   align-items: center;
@@ -15,6 +17,15 @@ header .head {
   display: flex;
   max-width: 100%;
   flex-grow: 1;
+  height: 2rem;
+  align-items: center;
+}
+
+.head img {
+  padding-left: 1.5rem;
+  height: 3rem;
+  padding-right: 1rem;
+
 }
 
 
@@ -33,4 +44,17 @@ header .head {
 
 .headnav li {
   padding: 1rem;
+}
+
+/*1st section*/
+
+.intro_container {
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+}
+
+.intro_container img {
+  width: 60%;
+  padding: 2rem 1.5rem;
 }
