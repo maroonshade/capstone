@@ -81,6 +81,13 @@ header .head {
 
 }
 
+/*Left element within second container*/
+
+.left_section {
+  width: 60%;
+  padding: 0rem 1.5rem;
+}
+
 .left_section h2 {
   width: 60%;
   padding: 0rem 1.5rem;
@@ -92,21 +99,30 @@ header .head {
 }
 
 .left_section img {
-  width: 60%;
-  padding: 2rem 1.5rem;
+  width: 100%;
+
 }
+
+/* Right section within second container */
 
 .right_section {
   width: 40%;
 }
 
-.right_section .subsection {
+.subsection {
   display: flex;
+  align-items: center;
 }
 
-.subsection img {
+.img-flex {
   width: 30%;
-  height: auto;
   padding: 1rem;
+}
 
+.subsection .img-flex img{
+   width: 100%;
+}
+
+.subsection .text {
+  width: 70%;
 }
