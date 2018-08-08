@@ -60,7 +60,8 @@ header .head {
 }
 
 .learn_something {
-  max-width: 17rem;
+
+  width: 40%
 }
 
 .learn_something h4 {
