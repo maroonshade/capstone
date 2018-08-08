@@ -131,3 +131,28 @@ header .head {
 .subsection .text {
   width: 70%;
 }
+
+/* Third section*/
+
+.third_header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.third_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 4.5rem;
+  justify-content: center;
+}
+
+.third_subelement {
+  padding: 2rem;
+}
+
+.third_img_flex {
+  height: auto;
+
+}
+
+.third_img_flex img {
