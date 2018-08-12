@@ -49,21 +49,39 @@ header .head {
 /*1st section*/
 
 .intro_container {
-  background-color: lightgrey;
+  background-color: rgb(237, 235, 235);
   display: flex;
   align-items: center;
 }
+
+
 
 .intro_container img {
   width: 60%;
   padding: 2rem 1.5rem;
   box-sizing: border-box;
+  opacity: 0.5;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
 
+}
+
+.intro_container img:hover {
+  opacity: 1;
 }
 
 .learn_something {
 max-width: 17rem;
 
+}
+
+.learn_something h1 {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+}
+
+.learn_something h3 {
+  font-family: "Open Sans";
 }
 
 .learn_something h4 {
@@ -73,7 +91,17 @@ max-width: 17rem;
   background-color: grey;
   margin: 0 auto;
   padding: 0.5rem 0;
+  font-family: "Montserrat";
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
 
+}
+
+.learn_something h4:hover {
+  padding: 1rem 0.5rem;
+  background-color: rgb(237, 235, 235);
+  color: black;
+  font-size: 1.5rem;
 }
 
 /*second section*/
