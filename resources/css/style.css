@@ -28,6 +28,16 @@ header .head {
 
 }
 
+.span0 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+.span1 {
+  color: grey;
+}
+
+
 
 .headnav {
   display: flex;
