@@ -11,6 +11,10 @@ header {
   align-content: center;
   max-width: 100%;
   height: 4rem;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
 }
 
 header .head {
@@ -34,6 +38,10 @@ header .head {
 }
 
 .span1 {
+
+}
+
+.span2 {
   color: grey;
 }
 
@@ -42,6 +50,8 @@ header .head {
 .headnav {
   display: flex;
   margin-right: 2rem;
+  font-family: "Open Sans";
+  font-weight: bold;
 
 }
 
@@ -92,6 +102,8 @@ max-width: 17rem;
 
 .learn_something h3 {
   font-family: "Open Sans";
+  font-size: 1.4rem;
+  padding: 1.5rem 0;
 }
 
 .learn_something h4 {
@@ -131,17 +143,21 @@ max-width: 17rem;
 }
 
 .left_section h2 {
-
+font-family: "Montserrat";
+font-size: 1.9rem;
+padding: 1rem 0;
 
 }
 
 .left_section p {
-
+font-family: "open sans";
+font-size: 1.2rem;
 
 }
 
 .left_section img {
   width: 100%;
+  opacity: 0.5;
 
 }
 
@@ -159,6 +175,18 @@ max-width: 17rem;
 .subsection {
   display: flex;
   align-items: center;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
+
+}.subsection:hover {
+  background-color: rgb(237, 235, 235);
+}
+
+.subsection1 {
+    border-bottom: solid rgb(237, 235, 235);
+    border-top: solid rgb(237, 235, 235);
+    display: flex;
+    align-items: center;
 }
 
 .img-flex {
@@ -174,12 +202,38 @@ max-width: 17rem;
   width: 70%;
 }
 
+.subsection1 .img-flex img {
+  width: 100%;
+}
+
+.subsection1 .text {
+  width: 70%;
+}
+
+.text h4 {
+  font-family: "Montserrat";
+  padding: 1rem 0;
+}
+
+.text p {
+  font-family: "open sans";
+  padding: 1rem 0;
+}
+
+.read_more {
+  font-weight: bold;
+}
 /* Third section*/
 
 .third_header {
   text-align: center;
   padding: 2rem 0;
-  background-color: lightgrey;
+  background-color: rgb(237, 235, 235);
+}
+
+.third_header h1 {
+  font-family: "Montserrat";
+  font-size: 2rem;
 }
 
 .third_container {
@@ -187,13 +241,25 @@ max-width: 17rem;
   flex-wrap: wrap;
 
   justify-content: center;
-  background-color: lightgrey;
+  background-color: rgb(237, 235, 235);
 }
 
 .third_subelement {
   padding: 2rem;
   max-width: 33.25rem;
 
+}
+
+.third_subelement h3 {
+  font-family: "Montserrat";
+  padding: 1.5rem 0;
+  font-size: 1.3rem;
+}
+
+.third_subelement p {
+  font-family: "open sans";
+  padding: 1rem 0;
+  font-size: 1.1rem;
 }
 
 .third_img_flex {
@@ -208,6 +274,7 @@ max-width: 17rem;
 .fourth_header {
     text-align: center;
     padding: 2rem 0;
+    background-color: beige;
   }
 
   .thesis_left {
@@ -235,6 +302,7 @@ max-width: 17rem;
 
 .fourth_container {
   display: flex;
+  background-color: beige;
 }
 
 
