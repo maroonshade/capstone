@@ -277,12 +277,28 @@ font-size: 1.2rem;
     background-color: beige;
   }
 
+  .fourth_header h1 {
+    font-family: "Montserrat";
+    font-size: 2rem;
+  }
+
   .thesis_left {
     padding: 0 1.5rem;
     width: 60%;
     box-sizing: border-box;
   }
 
+.thesis_left h2 {
+  font-family: "Montserrat";
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.thesis_left p {
+  font-family: "open sans";
+  padding: 1rem 0;
+
+}
   .thesis_vid {
 
 
@@ -296,8 +312,8 @@ font-size: 1.2rem;
     width: 60%;
   }
 
-.thesis_left p {
-    width: 60%;
+  .thesis_left p {
+      width:
 }
 
 .fourth_container {
@@ -331,4 +347,44 @@ font-size: 1.2rem;
 
 .thesis_text {
   width: 70%;
+
+}
+
+.thesis_text h3 {
+  font-family: "montserrat";
+  padding: 1rem 0;
+}
+
+.thesis_text p {
+  font-family: "open sans";
+  padding: 1rem 0;
+}
+
+/*footer*/
+
+footer {
+  display: flex;
+  font-family: "open sans";
+  font-weight: bold;
+}
+
+.left_footer {
+  padding: 1rem 1.5rem;
+  max-width: 100%;
+  flex-grow: 1;
+
+}
+
+.right_footer {
+  display: flex;
+  padding: 1rem 1.5rem;
+}
+
+.right_footer li {
+  display: flex;
+
+}
+
+.right_footer ul {
+  padding: 0 1rem;
 }
