@@ -269,12 +269,32 @@ font-size: 1.2rem;
   font-weight: bold;
 }
 
+.img-flexlefthide {
+  display: none;
+}
 
 @media only screen and (max-width: 560px) {
 
   .left_section {
     display: none;
   }
+  .right_section {
+    width: 100%;
+  }
+  .img-flex {
+    display: none;
+  }
+  .img-flexlefthide {
+    display: block;
+  }
+.subsection {
+  display: block;
+  padding: 1rem;
+}
+.subsection1 {
+  display: block;
+  padding: 1rem;
+}
 }
 
 /* Third section*/
