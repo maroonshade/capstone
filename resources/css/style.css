@@ -37,9 +37,7 @@ header .head {
   font-size: 1.5rem;
 }
 
-.span1 {
 
-}
 
 .span2 {
   color: grey;
@@ -66,7 +64,38 @@ header .head {
   padding: 1rem;
 }
 
+.hide_desktop {
+  display: none;
+}
+
+@media only screen and (max-width: 560px) {
+  .headnav {
+    display: none;
+  }
+  .span0 {
+    display: none;
+  }
+  .head img {
+    display: none;
+  }
+  .hide_desktop {
+    display: flex;
+    max-width: 100%;
+    flex-grow: 1;
+    height: 2rem;
+    align-items: center;
+  }
+  .hide_desktop img {
+    padding-left: 1.5rem;
+    height: 3rem;
+    padding-right: 1rem;
+  }
+}
+
 /*1st section*/
+
+
+
 
 .intro_container {
   background-color: rgb(237, 235, 235);
@@ -124,6 +153,22 @@ max-width: 17rem;
   background-color: rgb(237, 235, 235);
   color: black;
   font-size: 1.5rem;
+}
+
+
+@media only screen and (max-width: 560px) {
+  .intro_container {
+    display: block;
+  }
+  .intro_container img {
+    width: 100%;
+    padding: 0;
+  }
+  .learn_something {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 100%;
+  }
 }
 
 /*second section*/
@@ -223,6 +268,15 @@ font-size: 1.2rem;
 .read_more {
   font-weight: bold;
 }
+
+
+@media only screen and (max-width: 560px) {
+
+  .left_section {
+    display: none;
+  }
+}
+
 /* Third section*/
 
 .third_header {
