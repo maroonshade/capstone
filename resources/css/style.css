@@ -286,6 +286,10 @@ font-size: 1.2rem;
   }
   .img-flexlefthide {
     display: block;
+    max-width: 560px;
+  }
+  .img-flexlefthide img {
+    max-width: 100%;
   }
 .subsection {
   display: block;
@@ -342,6 +346,37 @@ font-size: 1.2rem;
 }
 
 .third_img_flex img {}
+
+  @media only screen and (max-width: 560px) {
+
+    .third_img_flex {
+      display: none;
+    }
+
+    .third_container {
+      display: block;
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    .third_subelement {
+      padding: 0.5rem 2rem;
+    }
+
+    .third_subelement p {
+      display: none;
+    }
+
+    .third_subelement h3 {
+      background-color: grey;
+      color: white;
+      text-align: left;
+      padding-left: 1rem;
+
+    }
+
+
+  }
 
   /* fourth section*/
 
