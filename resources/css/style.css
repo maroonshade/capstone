@@ -51,7 +51,10 @@ header .head {
   font-family: "Open Sans";
   font-weight: bold;
 
+
 }
+
+
 
 .headnav ul {
   display: inline-flex;
@@ -62,6 +65,14 @@ header .head {
 
 .headnav li {
   padding: 1rem;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
+}
+
+.headnav li:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
 }
 
 .hide_desktop {
@@ -174,7 +185,7 @@ max-width: 17rem;
 /*second section*/
 
 .second_container {
-  background-color: beige;
+  background-color: whitesmoke;
   display: flex;
 
 }
@@ -206,10 +217,14 @@ font-size: 1.2rem;
 
 }
 
-.img-flexleft {
-
+.img-flexleft img {
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
 }
 
+.img-flexleft img:hover {
+  opacity: 1;
+}
 /* Right section within second container */
 
 .right_section {
@@ -225,6 +240,7 @@ font-size: 1.2rem;
 
 }.subsection:hover {
   background-color: rgb(237, 235, 235);
+
 }
 
 .subsection1 {
@@ -232,16 +248,33 @@ font-size: 1.2rem;
     border-top: solid rgb(237, 235, 235);
     display: flex;
     align-items: center;
+    transition-duration: 0.75s;
+    transition-delay: 150ms;
+}
+
+.subsection1:hover {
+  background-color: rgb(237, 235, 235);
+
 }
 
 .img-flex {
   width: 30%;
   padding: 1rem;
+  opacity: 0.8;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
+}
+
+.img-flex:hover {
+  opacity: 1;
 }
 
 .subsection .img-flex img{
    width: 100%;
+
 }
+
+
 
 .subsection .text {
   width: 70%;
@@ -287,6 +320,12 @@ font-size: 1.2rem;
   .img-flexlefthide {
     display: block;
     max-width: 560px;
+    opacity: 0.5;
+    transition-duration: 0.75s;
+    transition-delay: 150ms;
+  }
+  .img-flexlefthide:hover {
+    opacity: 1;
   }
   .img-flexlefthide img {
     max-width: 100%;
@@ -345,7 +384,15 @@ font-size: 1.2rem;
 
 }
 
-.third_img_flex img {}
+.third_img_flex img {
+  opacity: 0.5;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
+}
+
+.third_img_flex img:hover {
+  opacity: 1;
+}
 
   @media only screen and (max-width: 560px) {
 
@@ -372,7 +419,13 @@ font-size: 1.2rem;
       color: white;
       text-align: left;
       padding-left: 1rem;
+      transition-duration: 0.75s;
+      transition-delay: 150ms;
+    }
 
+    .third_subelement h3:hover {
+      background-color: rgb(237, 235, 235);
+      color: black;
     }
 
 
@@ -383,7 +436,7 @@ font-size: 1.2rem;
 .fourth_header {
     text-align: center;
     padding: 2rem 0;
-    background-color: beige;
+    background-color: whitesmoke;
   }
 
   .fourth_header h1 {
@@ -409,8 +462,13 @@ font-size: 1.2rem;
 
 }
   .thesis_vid {
+opacity: 0.5;
+transition-duration: 0.75s;
+transition-delay: 150ms;
+  }
 
-
+  .thesis_vid:hover {
+    opacity: 1;
   }
 
   .thesis_vid video {
@@ -427,7 +485,7 @@ font-size: 1.2rem;
 
 .fourth_container {
   display: flex;
-  background-color: beige;
+  background-color: whitesmoke;
 }
 
 
@@ -440,7 +498,15 @@ font-size: 1.2rem;
 .thesis_subcontainer {
   display: flex;
   align-items: center;
+  opacity: 0.8;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
 
+}
+
+.thesis_subcontainer:hover {
+  background-color: rgb(237, 235, 235);
+  opacity: 1;
 }
 
 .subcontainer_imgflex {
@@ -469,6 +535,30 @@ font-size: 1.2rem;
   padding: 1rem 0;
 }
 
+@media only screen and (max-width: 560px) {
+
+  .fourth_container {
+    display:block;
+  }
+  .thesis_right {
+    display: none;
+  }
+  .thesis_left {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 1.5rem;
+  }
+  .thesis_left h2 {
+    display: none;
+  }
+  .thesis_left p {
+    display: none;
+  }
+
+
+
+}
+
 /*footer*/
 
 footer {
@@ -492,8 +582,23 @@ footer {
 .right_footer li {
   display: flex;
 
+
 }
 
 .right_footer ul {
   padding: 0 1rem;
+  transition-duration: 0.75s;
+  transition-delay: 150ms;
+}
+
+.right_footer ul:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 560px) {
+  .right_footer {
+    display: none;
+  }
 }
